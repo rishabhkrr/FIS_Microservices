@@ -10,3 +10,6 @@ create table role(ro_id int, ro_name varchar(255));
 create table user_role(us_ro_id int , us_us_id int);
 
 Alter table user_role change us_us_id ur_us_id int;
+
+insert into user VALUES(1, "rayan","2usnsi383jsis");
+insert into user VALUES(1, "user","123456789");
